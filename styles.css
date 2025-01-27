@@ -1,0 +1,48 @@
+body{
+    font-family: 'League Spartan', sans-serif;
+    background-color: #1C1D25;
+    color: #ffffff;
+    height: 100vh;
+}
+
+#grid{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#grid > img {
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+    font-size: 300%;
+}
+
+h3{
+    width: fit-content;
+    margin: 20px auto;
+    font-size: 150%;
+}
+
+#msgs{
+    width: fit-content;
+    margin: 90px auto;
+    margin-bottom: 30px;
+    font-size: 120%;
+}
+
+#button{
+    width: fit-content;
+    background-color: coral;
+    padding: 10px;
+    font-size: 120%;
+    border-radius: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+}
